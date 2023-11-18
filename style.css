@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /* background-color: #1d1d23; */
+
+}
+body{
+  background-color: #1d1d23;
+}
+section {
+  
+  padding: 30px;
+  width: 100vw;
+  height: 100%;
+  background-color: #1d1d23;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+ 
+  box-sizing: border-box;
+}
+.heading {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+#Timer {
+  margin-top: 30;
+  background-color: #34344a;
+  display: flex;
+  width: 700px;
+  height: 100px;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+#setTimer > input {
+  height: 30px;
+  font-size: 24px;
+  width: 38px;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  background-color: #34344a;
+}
+#setTimer {
+  font-size: 26px;
+}
+#setNow {
+  width: 124px;
+  height: 52px;
+  background-color: #f0f757;
+  border-radius: 26px;
+  border: none;
+}
+.statusDami {
+  background-color: #39393e;
+  width: 200px;
+  /* height: 40px; */
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+
+}
+#activeTimers{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* dynamic */
+.timerConainer{
+    margin-top: 30;
+  background-color: #34344a;
+  display: flex;
+  width: 700px;
+  height: 100px;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.timer{
+    font-size: 24px;
+  font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+
+.timer-ended {
+    color: red;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* .timer-controls {
+    display: flex;
+    justify-content: center;
+} */
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.stop-button {
+    background-color: red;
+    color: white;
+}
+
+.stop-button:hover {
+    background-color: rgb(205, 1, 1);
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: rgb(205, 1, 1);
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
